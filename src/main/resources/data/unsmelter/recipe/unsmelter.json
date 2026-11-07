@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "IFI", "III"],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "F": "minecraft:furnace"
+  },
+  "result": {
+    "id": "unsmelter:unsmelter",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "unsmelter",
+  "version": "${version}",
+  "name": "Unsmelter",
+  "description": "Recover smelting inputs from every loaded smelting recipe.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.enderdevelopment.unsmelter.UnsmelterMod"],
+    "client": ["dev.enderdevelopment.unsmelter.client.UnsmelterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
